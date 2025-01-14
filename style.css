@@ -1,0 +1,138 @@
+﻿body {
+    background: linear-gradient(0deg, #0091ff 0%, #fa3e00 100%) no-repeat fixed;
+}
+
+@font-face {
+    font-family: Orbiton;
+    src: url("fonts/Orbitron-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Alkatra;
+    src: url("fonts/Alkatra[wght].ttf");
+}
+
+@font-face {
+    font-family: Cadens;
+    src: url("fonts/cadens-light.ttf");
+}
+
+footer {
+    bottom: 0;
+    font-family: Orbiton;
+    text-align: center;
+    color: yellow;
+    background: #000;
+    font-size: 14px;
+    height: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+.all {
+    background-color: #ff0;
+    border-radius: 13px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    margin-right: 50px;
+}
+
+    .all:hover {
+        background-color: #e6e600;
+        color: #000;
+    }
+
+#logo {
+    display: flex;
+}
+
+.text1 {
+    color: khaki;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 10px;
+    line-height: 23px;
+    font-family: Cadens;
+    font-weight: 600;
+}
+
+.photo1 {
+    max-width: 100%;
+    border: solid;
+    border-color: white;
+    border-width: 4px;
+    border-radius: 12px;
+    margin-bottom: 32px;
+}
+
+.carousel-item img {
+    border-radius: 13px;
+    height: 370px;
+    margin-bottom: 30px;
+    border: solid;
+    border-color: lawngreen;
+}
+
+.maps {
+    text-align: center;
+    width: auto;
+    margin-bottom: 30px;
+}
+
+    .maps iframe {
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.7);
+        border-radius: 20px;
+        transition: all 0.3s ease;
+        border: 4px solid lawngreen;
+        margin-right: 20px;
+        margin-bottom:15px;
+    }
+
+        .maps iframe:hover {
+            box-shadow: 5px 5px 20px rgba(0,0,0,0.9);
+            transform: scale(1.05);
+        }
+
+.tables {
+    width: 878px;
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+/*JQuery special style for tabs*/
+.ui-draggable, .ui-droppable {
+    background-position: top;
+}
+/*Animation SVG*/
+svg {
+    cursor:none;
+    margin-left:19%;
+    max-width: 62%;
+    height:auto;
+    margin-bottom:35px;
+}
+#car, #lights, #lightPath {
+    transition: 3000ms;
+}
+/*Animation SVG*/
+#weather {
+    display:flex;
+    margin-bottom: 37px;
+    justify-content:center;
+}
+#insta {
+    text-align: center;
+}
+    #insta i {
+        font-size: 135px;
+        color: rebeccapurple;
+        background: orange;
+        border-radius: 100%;
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.6);
+        transition: all 0.3s ease;
+    }
+        #insta i:hover {
+            box-shadow: 5px 5px 20px rgba(0,0,0,0.95);
+            transform: scale(1.05);
+        }
